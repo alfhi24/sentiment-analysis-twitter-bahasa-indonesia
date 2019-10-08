@@ -1,7 +1,7 @@
 import tweepy
 from textblob import TextBlob
 from tweepy import OAuthHandler
-import twitter_auth # CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET
+import twitter_auth # CONSUMER_KEY, CONSUMER_SECRET, ACCESS_TOKEN, ACCESS_TOKEN_SECRET.
 
 auth = OAuthHandler(twitter_auth.CONSUMER_KEY, twitter_auth.CONSUMER_SECRET)
 auth.set_access_token(twitter_auth.ACCESS_TOKEN, twitter_auth.ACCESS_TOKEN_SECRET)
